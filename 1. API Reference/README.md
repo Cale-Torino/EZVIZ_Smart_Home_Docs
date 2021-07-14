@@ -102,3 +102,45 @@ https://open.ezvizlife.com/api/lapp/area/list
 | :------------| :------------ | :------------ | :------------ |
 |null|null|null|null|
 |null|null|null|null|
+
+### C# example
+
+```C#
+try
+{
+    using (HttpClient client = new HttpClient())
+    {
+        //Add Default Request Headers
+        //client.DefaultRequestHeaders.Add("Authorization", "Bearer token");
+        HttpContent stringContent = new FormUrlEncodedContent(new[]
+        {
+            new KeyValuePair<string, string>("username", "lvkd45d"),
+            new KeyValuePair<string, string>("appKey", "9mqitppidgce4y8n54ranvyqc9fjtsrl"),
+            new KeyValuePair<string, string>("appSecret", "096e76501644989b63ba0016ec5776"),
+        });
+        using (var response = await client.PostAsync("https://open.ezvizlife.com/api/lapp/token/get", stringContent))
+        {
+            using (HttpContent content = response.Content)
+            {
+                //Read the result and display in Textbox
+                string result = await content.ReadAsStringAsync();//Result string JSON
+                string reasonPhrase = response.ReasonPhrase;//Reason OK, FAIL etc.
+                LogsrichTextBox.AppendText(result + Environment.NewLine);
+                LogsrichTextBox.AppendText("Json => " + reasonPhrase + Environment.NewLine);
+                JObject R = JObject.Parse(result);
+                string code = (string)R["code"];
+                string msg = (string)R["msg"];
+                string accessToken = (string)R["data"]["accessToken"];
+                //authAddress = https://open.ezvizlife.com
+                //platformAddress = https://ieuopen.ezvizlife.com
+            }
+        }
+    }
+}
+catch (Exception ex)
+{
+    MessageBox.Show(ex.Message, "Could not test API", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    Logger.WriteLine(" *** Error:" + ex.Message + " [MainForm] ***");
+    return;
+}
+```
