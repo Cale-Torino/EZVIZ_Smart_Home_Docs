@@ -1,0 +1,13 @@
+
+
+Add 
+
+[LocalOperation]
+Show=1
+
+to the config
+
+
+
+
+
