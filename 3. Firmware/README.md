@@ -16,7 +16,7 @@ Show=1
 
 Refresh the device page in EZVIZ Studio or reopen the Studio, then you will see the *Advanced* under *All my devices*, press on it and enter verification code.
 
-
+---
 
 For some cameras like the C3A, nothing will work and you must downgrade firmware, that's how to do it:
 
@@ -32,7 +32,7 @@ https://usdownload.ezvizlife.com/device/CS-C3A-B0-1C2WPMFBR/2.0/CS-C3A-B0-1C2WPM
 
 In Ezviz Studio, advanced settings, under System Maintenance, there is an option to flash the .dav from a PC.
 
-
+I have also included a few firmware files here.
 
 
 
