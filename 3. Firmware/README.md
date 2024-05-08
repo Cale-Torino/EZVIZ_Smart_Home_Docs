@@ -36,8 +36,6 @@ I have also included a few firmware files here.
 
 `http` and `https` works for fetching the files
 
-https://usdownload.ezvizlife.com/device/Enter-Device-Type/2.0/Enter-Device-Type.dav
-
 - CS-C3A
     - https://usdownload.ezvizlife.com/device/CS-C3A-B0-1C2WPMFBR/2.0/CS-C3A-B0-1C2WPMFBR.dav
 - CS-C2mini
