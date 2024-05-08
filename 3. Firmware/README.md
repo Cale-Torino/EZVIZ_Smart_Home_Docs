@@ -34,17 +34,29 @@ In Ezviz Studio, advanced settings, under System Maintenance, there is an option
 
 I have also included a few firmware files here.
 
+`http` and `https` works for fetching the files
+
 https://usdownload.ezvizlife.com/device/Enter-Device-Type/2.0/Enter-Device-Type.dav
 
-- https://usdownload.ezvizlife.com/device/CS-C3A-B0-1C2WPMFBR/2.0/CS-C3A-B0-1C2WPMFBR.dav
-- https://usdownload.ezvizlife.com/device/CS-C2mini-31WFR/CS-C2mini-31WFR.dav
-- https://usdownload.ezvizlife.com/device/CS-C1HC-E0-1E2WF-KJDS/2.0/CS-C1HC-E0-1E2WF-KJDS.dav
-- http://usdownload.ezvizlife.com/device/LV-PDB1630-U/2.0/LV-PDB1630-U.dav
-- http://usdownload.ezvizlife.com/device/CS-CV248-A0-32WFR/2.0/CS-CV248-A0-32WFR.dav
-- sgpdownload.ezvizlife.com/device/CS-TY1-B0-1G2WF/2.0/CS-TY1-B0-1G2WF.dav
-- 
-- 
-- 
+- CS-C3A
+    - https://usdownload.ezvizlife.com/device/CS-C3A-B0-1C2WPMFBR/2.0/CS-C3A-B0-1C2WPMFBR.dav
+- CS-C2mini
+    - https://usdownload.ezvizlife.com/device/CS-C2mini-31WFR/CS-C2mini-31WFR.dav
+- CS-C1HC
+    - https://usdownload.ezvizlife.com/device/CS-C1HC-E0-1E2WF-KJDS/2.0/CS-C1HC-E0-1E2WF-KJDS.dav
+- LV-PDB1630
+    - https://usdownload.ezvizlife.com/device/LV-PDB1630-U/2.0/LV-PDB1630-U.dav
+- CS-CV248
+    - https://usdownload.ezvizlife.com/device/CS-CV248-A0-32WFR/2.0/CS-CV248-A0-32WFR.dav
+    - https://eudownload.ezvizlife.com/device/CS-CV248-A0-32WFR/2.0/CS-CV248-A0-32WFR.dav
+- CS-TY1
+    - https://sgpdownload.ezvizlife.com/device/CS-TY1-B0-1G2WF/2.0/CS-TY1-B0-1G2WF.dav
+- CS-CV310
+    - https://eudownload.ezvizlife.com/device/CS-CV310-A0-1B2WFR/2.0/CS-CV310-A0-1B2WFR.dav
+- CS-H3c
+    - https://eudownload.ezvizlife.com/device/CS-H3c-R100-1K3WKFL/2.0/CS-H3c-R100-1K3WKFL.dav
+- CS-C1T
+    - https://eudownload.ezvizlife.com/device/CS-C1T-A0-1D2WF/2.0/CS-C1T-A0-1D2WF.dav
 - 
 - 
 - 
@@ -54,3 +66,4 @@ Change CN virgin version to chad EN version: https://ipcamtalk.com/threads/conve
 
 
 
+You can also find firmware temp files in the `device_upgrade_temp` folder located in your ezviz install dir e.g `C:\ezviz\Ezviz Studio` but beware they get removed quickly...
