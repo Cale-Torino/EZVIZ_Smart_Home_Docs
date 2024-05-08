@@ -34,12 +34,23 @@ In Ezviz Studio, advanced settings, under System Maintenance, there is an option
 
 I have also included a few firmware files here.
 
-
 https://usdownload.ezvizlife.com/device/Enter-Device-Type/2.0/Enter-Device-Type.dav
 
 - https://usdownload.ezvizlife.com/device/CS-C3A-B0-1C2WPMFBR/2.0/CS-C3A-B0-1C2WPMFBR.dav
 - https://usdownload.ezvizlife.com/device/CS-C2mini-31WFR/CS-C2mini-31WFR.dav
 - https://usdownload.ezvizlife.com/device/CS-C1HC-E0-1E2WF-KJDS/2.0/CS-C1HC-E0-1E2WF-KJDS.dav
+- http://usdownload.ezvizlife.com/device/LV-PDB1630-U/2.0/LV-PDB1630-U.dav
+- http://usdownload.ezvizlife.com/device/CS-CV248-A0-32WFR/2.0/CS-CV248-A0-32WFR.dav
+- sgpdownload.ezvizlife.com/device/CS-TY1-B0-1G2WF/2.0/CS-TY1-B0-1G2WF.dav
 - 
 - 
+- 
+- 
+- 
+- 
+
+
+Change CN virgin version to chad EN version: https://ipcamtalk.com/threads/converting-ezviz-c6tc-from-chinese-to-english.42386/
+
+
 
